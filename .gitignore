@@ -1,0 +1,20 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore Makefile
+!Makefile
+
+### Above combination will ignore all files without extension ###
+
+.idea
+.vscode
+.DS_Store
+solc_binary/*
+
+__debug_bin
